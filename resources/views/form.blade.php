@@ -1,6 +1,8 @@
 @extends('layouts.admin')
 @section('content')
-<div class="form-builder-container">
+<div class="app-content">
+    <div class="side-app">
+        <div class="form-builder-container">
     <!-- Header -->
     <div class="form-builder-header">
         <div class="form-title-input-wrapper">
@@ -265,6 +267,9 @@
         </div>
     </div>
 </div>
+    </div><!-- /.form-builder-container -->
+</div><!-- /.side-app -->
+</div><!-- /.app-content -->
 
 <link rel="stylesheet" href="{{ asset('css/form-builder.css') }}">
 
